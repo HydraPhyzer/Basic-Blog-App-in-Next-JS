@@ -17,7 +17,7 @@ const Header = () => {
         <Link href="/">
             <button className="bg-yellow-300 p-1 md:p-2 md:text-sm rounded-sm text-yellow-800 border-yellow-300 border-2">All Post</button>
         </Link>
-        <Link href="/">
+        <Link href="/form">
             <button className="border-2 border-yellow-300 p-1 rounded-sm md:p-2 md:text-sm">Add Post</button>
         </Link>
     </div>
