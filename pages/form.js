@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Router from "next/router";
 
-const form = () => {
+const Form = () => {
     let [Title,setTitle]=useState("")
     let [Body,setBody]=useState("")
     let Add = () => {
@@ -55,4 +55,4 @@ const form = () => {
   );
 };
 
-export default form;
+export default Form;

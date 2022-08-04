@@ -52,7 +52,7 @@ const Pages = ({ Data1, Data2 }) => {
       <div className="Comments max-w-xl">
         {Data2.map((Elem) => {
           return (
-            <div className="rounded-md space-y-2 shadow-md p-2 bg-yellow-300 m-2 text-sm md:text-lg">
+            <div key={Elem.id} className="rounded-md space-y-2 shadow-md p-2 bg-yellow-300 m-2 text-sm md:text-lg">
                 <div className="Image flex space-x-3 items-center">
                     <img className="h-[30px] w-[30px] rounded-full" src="/Profile.png" alt="" />
                     <span className="capitalize text-green-800">{Elem.name}</span>
