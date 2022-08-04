@@ -1,5 +1,6 @@
 import "../styles/globals.css";
 import Head from "next/head";
+import Header from "../Components/Header";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -16,7 +17,10 @@ function MyApp({ Component, pageProps }) {
         <script src="https://cdn.tailwindcss.com"></script>
         <title>Basic Blog App in Next JS</title>
       </Head>
-      <Component {...pageProps} />
+
+
+      <Header />
+        <Component {...pageProps} />
 
       
     </div>
